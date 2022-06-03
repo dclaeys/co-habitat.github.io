@@ -2,4 +2,4 @@
 
 The project is lead by researchers from KULeuven and UCLouvain and funded by Innoviris.
 
-More details on the project [here](/about/).
+More details on the project [here](./about/).

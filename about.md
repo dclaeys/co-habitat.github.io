@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About the project
-permalink: /about/
+permalink: ./about/
 ---
 
 # CO-HABITAT project
@@ -22,3 +22,5 @@ The research results in the **CO-HABITAT Atlas** that envisions future pathways 
 <img src="/assets/img/logo_KUL.png" alt="KULeuven" width="200"/>
 <img src="/assets/img/logo_UCL.jpg" alt="UCLouvain" width="200"/>
 <img src="/assets/img/Cohabitat-front.png" alt="cohabitat" width="600"/>
+
+[Back](./)
