@@ -2,27 +2,25 @@ theme: jekyll-theme-minimal
 logo: /assets/img/logo.png
 title: CO-HABITAT project
 description: Towards animal-inclusive design strategies in the Brussels Capital Region
-baseurl: ""
-url: "https://co-habitat.github.io/"
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  Home:
-  About: "/about/"
-  Co-habitat Atlas: "/atlas"
-  Members: "/members"
-  Resources:
-    - ResearchGate: "https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region"
-    - GitHub repositories: "/projects"
-  Blog: "/blog/"
-  Contact: ""
+#navbar-links:
+  #Home:
+  #About: "/about/"
+  #Co-habitat Atlas: "/atlas"
+  #Members: "/members"
+  #Resources:
+    #- ResearchGate: "https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region"
+    #- GitHub repositories: "/projects"
+  #Blog: "/blog/"
+  #Contact: ""
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -84,7 +82,7 @@ share_buttons:
   twitter: true
   google_plus:
   tumblr:
-  pinterest: 
+  pinterest:
   pocket:
   reddit: true
   linkedin: true
@@ -116,17 +114,15 @@ keywords: "wildlife,animal,non-human,habitat,co-habitat,cohabitat,Brussels,urban
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+# navbar-text-col: "#404040"
+# page-col: "#FFFFFF"
+# text-col: "#404040"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
+# footer-col: "#EAEAEA"
+# footer-text-col: "#777777"
+# footer-link-col: "#404040"
+# footer-hover-col: "#0085A1"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
