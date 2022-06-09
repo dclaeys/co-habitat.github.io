@@ -12,8 +12,12 @@
     <div class="wrapper">
       <section>
         {{ content }}
+      </section>
+    </div>
 
-      {% if site.posts.size > 0 %}
+    <div class="wrapper">
+      <section>
+        {% if site.posts.size > 0 %}
         <h2 class="post-list-heading">
           {{ page.list_title | default: "Posts" }}
         </h2>
@@ -47,7 +51,9 @@
 
       {% endif %}
 
-      </section>
+
+    </section>
+  </div>
 
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; GitHub: <a href="https://github.com/co-habitat">co-habitat</a></small></p>
