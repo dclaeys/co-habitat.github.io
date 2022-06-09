@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+  {% include head.html %}
 
   <body>
 
     <div class="wrapper">
-      <section>
         {{ content }}
-      </section>
     </div>
 
     <div class="wrapper">
-      <section>
         {% if site.posts.size > 0 %}
         <h2 class="post-list-heading">
           {{ page.list_title | default: "Posts" }}
@@ -50,12 +43,9 @@
         </ul>
 
       {% endif %}
-    </section>
   </div>
 
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; GitHub: <a href="https://github.com/co-habitat">co-habitat</a></small></p>
-      </footer>
+      {% include footer.html %}
 
   </body>
 </html>
