@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Authors
 ---
 All authors on this research project:
