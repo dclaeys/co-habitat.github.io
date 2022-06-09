@@ -12,7 +12,9 @@ navbar-links:
   Members: "members"
   Resources:
     - ResearchGate: "https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region"
-  Contact: "https://deanattali.com"
+    - GitHub repositories: "projects"
+  Blog: ./posts/
+  Contact: ""
 
 # --- Logo --- #
 
@@ -78,7 +80,7 @@ share-links-active:
 # Remove this if you don't want a link in the footer
 #url-pretty: "MyWebsite.com"
 
-show_excerpts: true
+#show_excerpts: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
