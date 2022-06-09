@@ -2,18 +2,20 @@ theme: jekyll-theme-minimal
 logo: /assets/img/logo.png
 title: CO-HABITAT project
 description: Towards animal-inclusive design strategies in the Brussels Capital Region
+baseurl: ""
+url: "https://co-habitat.github.io"
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Home:
-  About: "about"
-  Co-habitat Atlas: "atlas"
-  Members: "members"
+  About: "./about"
+  Co-habitat Atlas: "./atlas"
+  Members: "./members"
   Resources:
     - ResearchGate: "https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region"
-    - GitHub repositories: "projects"
-  Blog: ./posts/
+    - GitHub repositories: "./projects"
+  Blog: ./blog/
   Contact: ""
 
 # --- Logo --- #
@@ -36,7 +38,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
 #  email: "someone@example.com"
-#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
   github: co-habitat
 #  twitter: daattali
@@ -80,7 +82,7 @@ share-links-active:
 # Remove this if you don't want a link in the footer
 #url-pretty: "MyWebsite.com"
 
-#show_excerpts: true
+show_excerpts: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
