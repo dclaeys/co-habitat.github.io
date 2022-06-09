@@ -1,5 +1,7 @@
 ---
+layout: default
 title: CO-HABITAT \| Home
+permalink: ./
 ---
 
 ## Welcome to CO-HABITAT
