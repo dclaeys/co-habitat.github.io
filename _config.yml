@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 logo: /assets/img/logo.png
 title: CO-HABITAT project
 description: Towards animal-inclusive design strategies in the Brussels Capital Region
+url: 'https://co-habitat.github.io'
+github_username: co-habitat
 
 # --- List of links in the navigation bar --- #
 
@@ -78,6 +80,8 @@ share-links-active:
 # Remove this if you don't want a link in the footer
 #url-pretty: "MyWebsite.com"
 
+show_excerpts: true
+
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
@@ -91,7 +95,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "wildlife,animal,non-human,habitat,co-habitat,cohabitat,Brussels,urban,region,BRC,UCLouvain,KULeuven"
 
 # --- Colours / background image --- #
 
@@ -122,6 +126,7 @@ footer-hover-col: "#0085A1"
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
   - "/assets/css/style.scss"
+  - "/assets/css/custom.scss"
 
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
