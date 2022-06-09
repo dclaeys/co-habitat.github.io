@@ -212,6 +212,10 @@ site-js:
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
+collections:
+  people:
+    output: true
+
 # Facebook App ID
 #fb_app_id: ""
 
