@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: About the project
 permalink: ./about/
 ---
