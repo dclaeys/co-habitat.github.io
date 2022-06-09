@@ -3,19 +3,19 @@ logo: /assets/img/logo.png
 title: CO-HABITAT project
 description: Towards animal-inclusive design strategies in the Brussels Capital Region
 baseurl: ""
-url: "https://co-habitat.github.io"
+url: "https://co-habitat.github.io/"
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Home:
-  About: "./about"
-  Co-habitat Atlas: "./atlas"
-  Members: "./members"
+  About: "/about/"
+  Co-habitat Atlas: "/atlas"
+  Members: "/members"
   Resources:
     - ResearchGate: "https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region"
-    - GitHub repositories: "./projects"
-  Blog: "./blog/"
+    - GitHub repositories: "/projects"
+  Blog: "/blog/"
   Contact: ""
 
 # --- Logo --- #
@@ -41,7 +41,7 @@ social-network-links:
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
   github: co-habitat
-#  twitter: daattali
+  twitter: marl3n3B
 #  patreon: DeanAttali
 #  medium: yourname
 #  youtube: c/daattali
@@ -77,6 +77,19 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: false
+
+# Sharing options
+share_buttons:
+  facebook: true
+  twitter: true
+  google_plus:
+  tumblr:
+  pinterest: 
+  pocket:
+  reddit: true
+  linkedin: true
+  wordpress: true
+  email: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
