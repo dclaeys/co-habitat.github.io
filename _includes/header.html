@@ -1,0 +1,25 @@
+<header>
+  <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+  {% if site.logo %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" />
+  {% endif %}
+
+  <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+
+  <p class="view"><a href="{{ site.baseurl }}/about">About</a></p>
+
+  <p class="view"><a href="{{ site.baseurl }}/atlas">Atlas</a></p>
+
+  <p class="view"><a href="{{ site.baseurl }}/members">Members</a></p>
+
+  <p class="view"><a href="{{ site.baseurl }}/resources">Resources</a></p>
+  <p class="view"><a href="https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region">- ResearchGate</a></p>
+  <p class="view"><a href="{{ site.github.owner_url }}">- GitHub</a></p>
+
+  <p class="view"><a href="{{ site.baseurl }}/blog">Blog</a></p>
+
+  <p class="view"><a href="{{ site.baseurl }}/writers">Authors</a></p>
+
+</header>
