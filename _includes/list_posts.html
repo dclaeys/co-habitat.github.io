@@ -37,10 +37,10 @@
       {% for post in site.posts %}
       <li>
         {% if post.image %}
-          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image" style="width:150px">
         {% else %}
           {% assign postImage = "/assets/img/logo.png" %}
-          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image" style="width:150px">
         {% endif %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
