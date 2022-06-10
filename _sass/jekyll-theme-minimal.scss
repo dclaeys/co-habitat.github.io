@@ -119,7 +119,7 @@ kbd {
 }
 
 header {
-  width:270px;
+  width:100%;
   background-color: #ffffff;
   float:left;
   position:fixed;
@@ -221,11 +221,7 @@ footer {
   header, section, footer {
     float:none;
     position:static;
-    width:100%;
-  }
-
-  header {
-    padding-right:320px;
+    width:auto;
   }
 
   section {
