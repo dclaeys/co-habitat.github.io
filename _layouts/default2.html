@@ -1,17 +1,48 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
 
   <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ site.baseurl }}">CO-HABITAT</a></h1>
+        <p> [Project Website] </p>
 
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <!--
+        <p class="view"><a href="affiliation.html">Affiliation</a></p>
+        -->
+        <p class="view"><a href="{{ site.baseurl }}">Home</a></p>
 
-    {% include list_posts.html %}
+        <p class="view"><a href="{{ site.baseurl }}/about">About</a></p>
 
+        <p class="view"><a href="{{ site.baseurl }}/atlas">Atlas</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/members">Members</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/resources">Resources</a></p>
+        <p class="view"><a href="https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region">- ResearchGate</a></p>
+        <p class="view"><a href="https://github.com/co-habitat">- GitHub</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/blog">Blog</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/writers">Authors</a></p>
+
+      </header>
+
+      <section>
+      {{ content }}
+      </section>
+
+      {% include footer.html %}
+
+    </div>
 
   </body>
 
-    {% include footer.html %}
-    
 </html>
