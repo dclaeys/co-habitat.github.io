@@ -1,11 +1,20 @@
 {% if site.theme_settings.footer_text %}
-<footer class="site-footer">
-    <p class="text">{{ site.theme_settings.footer_text }}</p>
-            <div class="footer-icons">
-                <ul>
-                <!-- Social icons from Font Awesome, if enabled -->
-                {% include icons.html %}
-                </ul>
-            </div>
+
+<footer>
+  <p class="text">{{ site.theme_settings.footer_text }}</p>
+          <div class="footer-icons">
+              <ul>
+              <!-- Social icons from Font Awesome, if enabled -->
+              {% include icons.html %}
+              </ul>
+          </div>
+  <p><small>Theme inspired by <a
+          href="https://github.com/orderedlist">orderedlist</a>'s
+      <a href="https://github.com/orderedlist/minimal">Minimal</a>.
+  Licensed under <a
+          href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA
+  3.0</a>.
+  </small>
+  </p>
 </footer>
 {% endif %}

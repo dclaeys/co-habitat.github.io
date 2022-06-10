@@ -10,3 +10,5 @@ The project is lead by researchers from KULeuven and UCLouvain and funded by Inn
 
 - [Presentation of the project](./about/)
 - [List of the GitHub repositories](./projects/)
+- [List authors](./writers/)
+- [Co-Habitat Atlas](./atlas/)
