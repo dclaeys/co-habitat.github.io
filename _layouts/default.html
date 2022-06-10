@@ -45,8 +45,18 @@
 
       {{ content }}
 
+      {% include list_posts.html %}
+
       </section>
       <footer>
+        <p class="text">{{ site.theme_settings.footer_text }}</p>
+                <div class="footer-icons">
+                    <ul>
+                    <!-- Social icons from Font Awesome, if enabled -->
+                    {% include icons.html %}
+                    </ul>
+                </div>
+                
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

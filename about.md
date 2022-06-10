@@ -1,11 +1,8 @@
 ---
 layout: post
-title: About the project
+title: CO-HABITAT project
 permalink: ./about/
 ---
-
-# CO-HABITAT project
-
 
 ## Towards animal-inclusive design strategies in the Brussels Capital Region
 
@@ -17,7 +14,7 @@ The design exploration will build on a data dashboard that will be developed to 
 
 The research results in the **CO-HABITAT Atlas** that envisions future pathways for co-habitation in the Brussels Capital Region and contributes to a disciplinary renewal, introducing knowledge and concepts of ecology into urban planning, policies and design. By including different experts, organizations, administrations and students, as well as focusing on representation, the project aims to contribute to a larger societal discussion on the place of animals in our cities.
 
-<a href="/assets/doc/COHABITAT_brochure.pdf">Presentation of the project here</a>
+<a href="/assets/doc/COHABITAT_brochure.pdf">Download the presentation of the project here</a>
 
 <img src="/assets/img/logo_innoviris.png" alt="Innoviris" width="150"/>
 <img src="/assets/img/logo_KUL.png" alt="KULeuven" width="150"/>
