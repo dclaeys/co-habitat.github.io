@@ -1,14 +1,15 @@
-{% if site.theme_settings.footer_text %}
-
 <footer>
+
   <p class="text">{{ site.theme_settings.footer_text }}</p>
-          <div class="footer-icons">
-              <ul>
-              <!-- Social icons from Font Awesome, if enabled -->
-              {% include icons.html %}
-              </ul>
-          </div>
-  <p><small>Theme inspired by <a
+      <div class="footer-icons">
+          <ul>
+          <!-- Social icons from Font Awesome, if enabled -->
+          {% include icons.html %}
+          </ul>
+      </div>
+
+  <p>
+    <small>Theme inspired by <a
           href="https://github.com/orderedlist">orderedlist</a>'s
       <a href="https://github.com/orderedlist/minimal">Minimal</a>.
   Licensed under <a
@@ -16,5 +17,5 @@
   3.0</a>.
   </small>
   </p>
+
 </footer>
-{% endif %}
