@@ -1,6 +1,7 @@
 ---
 name: Marlène Boura
 layout: author
+title: Marlène Boura
 ---
 Marlène Boura is a postdoctoral researcher at [UCLouvain](https://uclouvain.be/en), currently working in the project CO-HABITAT: Towards animal-inclusive design strategies in the Brussels Capital Region. She holds a PhD in Geography from the University of Luxembourg since 2021.
 
