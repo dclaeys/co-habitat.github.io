@@ -8,15 +8,16 @@
 {% seo %}
 
     <!-- Style -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/bootstrap.min.css" type="text/css">
     <script src="{{ base_path }}/assets/js/bootstrap.bundle.min.js"></script>
 
   </head>
   <body>
     <div class="wrapper">
 
+      {% include header.html %}
 
       <section>
 
