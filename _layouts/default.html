@@ -10,11 +10,11 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
-    <link rel="{{ "assets/css/fontawesome.min.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "assets/css/fontawesome.min.css" | append: site.github.build_revision | relative_url }}" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link rel="{{ "assets/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
-    <script src="{{ "assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <link href="{{ "assets/css/bootstrap.min.css" | append: site.github.build_revision | relative_url }}" rel="stylesheet">
+    <script src="{{ "assets/js/bootstrap.bundle.min.js" | append: site.github.build_revision | relative_url }}"></script>
 
   </head>
   <body>
