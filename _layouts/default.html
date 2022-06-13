@@ -9,15 +9,14 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link href="{{ "/assets/css/fontawesome.min.css" | prepend: site.baseurl | relative_url }}" rel="stylesheet">
-    <link href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl | relative_url }}" rel="stylesheet">
-    <script src="{{ "/assets/js/bootstrap.bundle.min.js" | prepend: site.baseurl | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ "/assets/css/fontawesome.min.css" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | append: site.github.build_revision | relative_url }}">
+    <script src="{{ "/assets/js/bootstrap.bundle.min.js" | append: site.github.build_revision | relative_url }}"></script>
 
   </head>
   <body>
     <div class="wrapper">
 
-      {% include header.html %}
 
       <section>
 
