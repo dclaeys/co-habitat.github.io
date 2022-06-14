@@ -4,4 +4,4 @@ title: All blog posts
 permalink: ./blog/
 ---
 
-{% include footer.html %}
+{% include list_posts_img.html %}
