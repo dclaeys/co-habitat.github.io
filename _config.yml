@@ -249,7 +249,11 @@ exclude:
   - LICENSE
   - screenshot.png
   - docs/
+  - _site/
+  - _includes/list_posts2.html
+  - _layouts/default2.html
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-tabs
