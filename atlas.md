@@ -33,7 +33,6 @@ permalink: ./atlas
 
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">
-  ``` markdown
   There are 1396778 species from the group Birds.
 
   Frequencies of the different families for birds.
@@ -263,7 +262,7 @@ permalink: ./atlas
       </tr>
     </tbody>
   </table>
-```
+
 
   </div>
   <div class="tab-pane fade" id="mammals" role="tabpanel" aria-labelledby="profile-tab">
