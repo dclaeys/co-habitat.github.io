@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CO-HABITAT Atlas
-permalink: ./Atlas
+permalink: ./atlas
 ---
 
 
@@ -14,6 +14,9 @@ permalink: ./Atlas
   style="border:none">
 </iframe>
 
+<img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
+
+<img src="/assets/img/BaseMap_natural_Bees, Wasps and ants.png" alt="Bees, Wasps and ants" width="500"/>
 
 {% codetabs %}
 
@@ -123,6 +126,8 @@ Top 20 most observed species of mammals.
 | Felis catus               |       395 |  0.842164 |
 | Eptesicus serotinus       |       280 |  0.596977 |
 | Castor fiber              |       240 |  0.511694 |
+
+<img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
 
 {% endcodetab %}
 
