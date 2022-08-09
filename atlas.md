@@ -62,6 +62,8 @@ permalink: ./atlas
   <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">
   There are 1396778 species from the group Birds.
 
+  <?php include "./assets/mapW/01_trees.html" ?>
+
   <table id="T_91573">
     <caption>Frequencies of the different famillies for Birds</caption>
     <thead>
