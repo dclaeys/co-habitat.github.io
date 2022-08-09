@@ -37,9 +37,9 @@ permalink: ./atlas
 
   Frequencies of the different families for birds.
 
-  <table border="1" class="dataframe">
+  <table border="2" class="dataframe">
     <thead>
-      <tr style="text-align: right;">
+      <tr style="text-align: left;">
         <th>familly</th>
         <th>nberObs</th>
         <th>pctObs</th>
@@ -153,7 +153,7 @@ permalink: ./atlas
 
   <table border="1" class="dataframe">
     <thead>
-      <tr style="text-align: right;">
+      <tr style="text-align: left;">
         <th>species</th>
         <th>nberObs</th>
         <th>pctObs</th>
