@@ -14,9 +14,9 @@ permalink: ./atlas
   style="border:none">
 </iframe>
 
-<img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
+<img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="800"/>
 
-<img src="/assets/img/BaseMap_natural_Bees, Wasps and ants.png" alt="Bees, Wasps and ants" width="500"/>
+<img src="/assets/img/BaseMap_natural_BeesWaspsAnts.png" alt="Bees, Wasps and ants" width="800"/>
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
@@ -31,8 +31,11 @@ permalink: ./atlas
 </ul>
 
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">There are 1396778 species from the group Birds.
-  Frequencies of the different families for mammals.
+  <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">
+  ``` markdown
+  There are 1396778 species from the group Birds.
+
+  Frequencies of the different families for birds.
 
   | familly        |   nberObs |   pctObs |
   |:---------------|----------:|---------:|
@@ -81,10 +84,11 @@ permalink: ./atlas
   | Fulica atra                |     20525 |  1.46945 |
   | Ardea cinerea              |     19743 |  1.41347 |
   | Sturnus vulgaris           |     19565 |  1.40072 |
+```
 
   </div>
   <div class="tab-pane fade" id="mammals" role="tabpanel" aria-labelledby="profile-tab">
-
+  ``` markdown
   There are 46903 species from the group Mammals.
   Frequencies of the different  for mammals.
   Top 20 most observed species of mammals.
@@ -135,8 +139,10 @@ permalink: ./atlas
   | Eptesicus serotinus       |       280 |  0.596977 |
   | Castor fiber              |       240 |  0.511694 |
 
-  <img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
 
+  ```
+  <img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
+  
   </div>
   <div class="tab-pane fade" id="reptiles" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
