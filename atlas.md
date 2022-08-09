@@ -141,8 +141,8 @@ permalink: ./atlas
 
 
   ```
-  <img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
-  
+  <img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="800"/>
+
   </div>
   <div class="tab-pane fade" id="reptiles" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
@@ -309,8 +309,8 @@ Top 20 most observed species of mammals.
 
   <div class="tab-content" id="v-pills-tabContent">
     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="800"/></div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="1000"/></div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
   </div>
 </div>
