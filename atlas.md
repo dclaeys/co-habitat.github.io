@@ -31,8 +31,113 @@ permalink: ./atlas
 </ul>
 
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">...</div>
-  <div class="tab-pane fade" id="mammals" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">There are 1396778 species from the group Birds.
+  Frequencies of the different families for mammals.
+
+  | familly        |   nberObs |   pctObs |
+  |:---------------|----------:|---------:|
+  | Anatidae       |    120174 |  8.60366 |
+  | Corvidae       |    120124 |  8.60008 |
+  | Paridae        |    119443 |  8.55132 |
+  | Columbidae     |    107190 |  7.67409 |
+  | Turdidae       |     93428 |  6.68882 |
+  | Fringillidae   |     86410 |  6.18638 |
+  | Muscicapidae   |     85299 |  6.10684 |
+  | Laridae        |     48613 |  3.48037 |
+  | Troglodytidae  |     46779 |  3.34906 |
+  | Picidae        |     46567 |  3.33389 |
+  | Rallidae       |     42008 |  3.00749 |
+  | Sylviidae      |     39595 |  2.83474 |
+  | Accipitridae   |     38372 |  2.74718 |
+  | Phylloscopidae |     36734 |  2.62991 |
+  | Motacillidae   |     34882 |  2.49732 |
+  | Prunellidae    |     33889 |  2.42623 |
+  | Ardeidae       |     24105 |  1.72576 |
+  | Passeridae     |     22003 |  1.57527 |
+  | Psittaculidae  |     21149 |  1.51413 |
+  | Falconidae     |     20704 |  1.48227 |
+
+  Top 20 most observed species of birds.
+
+  | species                    |   nberObs |   pctObs |
+  |:---------------------------|----------:|---------:|
+  | Columba palumbus           |     70972 |  5.08112 |
+  | Erithacus rubecula         |     65379 |  4.6807  |
+  | Parus major                |     62306 |  4.46069 |
+  | Turdus merula              |     61357 |  4.39275 |
+  | Troglodytes troglodytes    |     46779 |  3.34906 |
+  | Corvus corone              |     44863 |  3.21189 |
+  | Cyanistes caeruleus        |     43525 |  3.1161  |
+  | Fringilla coelebs          |     38541 |  2.75928 |
+  | Pica pica                  |     38467 |  2.75398 |
+  | Prunella modularis         |     33880 |  2.42558 |
+  | Phylloscopus collybita     |     33805 |  2.42021 |
+  | Sylvia atricapilla         |     29196 |  2.09024 |
+  | Dendrocopos major          |     25078 |  1.79542 |
+  | Buteo buteo                |     22359 |  1.60076 |
+  | Anas platyrhynchos         |     22259 |  1.5936  |
+  | Passer domesticus          |     21087 |  1.50969 |
+  | Chroicocephalus ridibundus |     20819 |  1.4905  |
+  | Fulica atra                |     20525 |  1.46945 |
+  | Ardea cinerea              |     19743 |  1.41347 |
+  | Sturnus vulgaris           |     19565 |  1.40072 |
+
+  </div>
+  <div class="tab-pane fade" id="mammals" role="tabpanel" aria-labelledby="profile-tab">
+
+  There are 46903 species from the group Mammals.
+  Frequencies of the different  for mammals.
+  Top 20 most observed species of mammals.
+
+  | familly          |   nberObs |      pctObs |
+  |:-----------------|----------:|------------:|
+  | Vespertilionidae |     10137 | 21.6127     |
+  | Sciuridae        |      8120 | 17.3123     |
+  | Canidae          |      7026 | 14.9799     |
+  | Leporidae        |      5207 | 11.1016     |
+  | Talpidae         |      4015 |  8.56022    |
+  | Cervidae         |      3737 |  7.96751    |
+  | Muridae          |      2101 |  4.47946    |
+  | Mustelidae       |      1984 |  4.23001    |
+  | Erinaceidae      |      1825 |  3.89101    |
+  | Cricetidae       |       918 |  1.95723    |
+  | onbekend         |       433 |  0.923182   |
+  | Felidae          |       395 |  0.842164   |
+  | Soricidae        |       352 |  0.750485   |
+  | Castoridae       |       240 |  0.511694   |
+  | Suidae           |       204 |  0.43494    |
+  | Gliridae         |       104 |  0.221734   |
+  | MAMMALIA         |        83 |  0.176961   |
+  | Procyonidae      |        20 |  0.0426412  |
+  | Phocidae         |         1 |  0.00213206 |
+  | Elephantidae     |         1 |  0.00213206 |
+
+  | species                   |   nberObs |    pctObs |
+  |:--------------------------|----------:|----------:|
+  | Vulpes vulpes             |      7025 | 14.9777   |
+  | Pipistrellus pipistrellus |      6706 | 14.2976   |
+  | Sciurus vulgaris          |      6629 | 14.1334   |
+  | Talpa europaea            |      4015 |  8.56022  |
+  | Capreolus capreolus       |      3681 |  7.84811  |
+  | Oryctolagus cuniculus     |      3047 |  6.49639  |
+  | Lepus europaeus           |      2160 |  4.60525  |
+  | Erinaceus europaeus       |      1825 |  3.89101  |
+  | Eutamias sibiricus        |      1481 |  3.15758  |
+  | Pipistrellus nathusii     |      1268 |  2.70345  |
+  | Martes foina              |      1080 |  2.30262  |
+  | Rattus norvegicus         |       924 |  1.97002  |
+  | Apodemus sylvaticus       |       805 |  1.71631  |
+  | Myodes glareolus          |       615 |  1.31122  |
+  | Nyctalus noctula          |       593 |  1.26431  |
+  | Meles meles               |       441 |  0.940238 |
+  | Chiroptera spec.          |       428 |  0.912522 |
+  | Felis catus               |       395 |  0.842164 |
+  | Eptesicus serotinus       |       280 |  0.596977 |
+  | Castor fiber              |       240 |  0.511694 |
+
+  <img src="/assets/img/maps/BaseMap_natural_Mammals.png" alt="Mammals" width="500"/>
+
+  </div>
   <div class="tab-pane fade" id="reptiles" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
 
@@ -195,7 +300,7 @@ Top 20 most observed species of mammals.
     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
   </div>
-  
+
   <div class="tab-content" id="v-pills-tabContent">
     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
