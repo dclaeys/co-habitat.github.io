@@ -62,7 +62,13 @@ permalink: ./atlas
   <div class="tab-pane fade show active" id="birds" role="tabpanel" aria-labelledby="home-tab">
   There are 1396778 species from the group Birds.
 
-  {% include atlas/mapW/01_trees.html %}
+  {% include atlas/freqFamilies_Birds.html %}
+
+  {% include atlas/freqSpecies_Birds.html %}
+
+  {% include atlas/freqFamilies_Mammals.html %}
+
+  {% include atlas/freqSpecies_Mammals.html %}
 
   <table id="T_91573">
     <caption>Frequencies of the different famillies for Birds</caption>
@@ -337,7 +343,7 @@ permalink: ./atlas
   <div class="tab-pane fade" id="mammals" role="tabpanel" aria-labelledby="profile-tab">
   ``` markdown
   There are 46903 species from the group Mammals.
-  Frequencies of the different  for mammals.
+  Frequencies of the different  for families of mammals.
   Top 20 most observed species of mammals.
 
   | familly          |   nberObs |      pctObs |
