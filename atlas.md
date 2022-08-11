@@ -4,35 +4,6 @@ title: CO-HABITAT Atlas
 permalink: ./atlas
 ---
 
-<style type="text/css">
-#T_882e4 tr:hover {
-  background: #f4f4f4;
-}
-#T_882e4 th {
-  color: #fff;
-  border: 1px solid #eee;
-  padding: 12px 35px;
-  border-collapse: collapse;
-  background: #00cccc;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-#T_882e4 td {
-  color: #999;
-  border: 1px solid #eee;
-  padding: 12px 35px;
-  border-collapse: collapse;
-  font-size: 15px;
-}
-#T_882e4 table {
-  border: 1px solid #eee;
-  border-bottom: 2px solid #00cccc;
-}
-#T_882e4 caption {
-  caption-side: top;
-}
-</style>
-
 <iframe
   src="/assets/mapW/01_trees.html"
   width="100%"
@@ -41,6 +12,27 @@ permalink: ./atlas
   style="border:none">
 </iframe>
 
+# Land use in Brussels Capital Region (BCR)
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="/assets/img/maps/BuildingTypes.png" alt="Birds map" width="800"/>
+    </div>
+    <div class="col">
+      ...
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <img src="/assets/img/maps/BuiltUpCOLOR.png" alt="Birds map" width="800"/>
+    </div>
+    <div class="col">
+      <img src="/assets/img/maps/NaturalCOLOR.png" alt="Birds map" width="800"/>
+    </div>
+  </div>
+</div>
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
