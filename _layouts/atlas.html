@@ -19,7 +19,43 @@
 
   </head>
   <body>
-    <div class="wrapper" style="width:1600px">
+    <div class="wrapper">
+
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <nav class="nav flex-column">
+          <a class="nav-link active" aria-current="page" href="#habitats">Habitats</a>
+          <a class="nav-link" dropdown-toggle" data-bs-toggle="dropdown" href="#obsSpecies" role="button" aria-expanded="false">Species observations</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Per category</a></li>
+            <li><a class="dropdown-item" href="#">Per species</a></li>
+            <li><a class="dropdown-item" href="#">Per status</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Incidents</a></li>
+          </ul>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+
+
+
+        <p class="view"><a href="{{ site.baseurl }}/about">Habitats</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/atlas">Species observations</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/members">Members</a></p>
+
+        <p class="view"><a href="{{ site.baseurl }}/blog">Blog</a></p>
+
+
+      </header>
 
 
       <section>
@@ -27,43 +63,50 @@
         {{ content }}
 
 
-        <p>
-          <a href="https://innoviris.brussels/"><img src="/assets/img/logo_innoviris.png" alt="Innoviris" width="75"/></a>
-          <a href="https://www.kuleuven.be/english/kuleuven/index.html/"><img src="/assets/img/logo_KUL.png" alt="KULeuven" width="75"/></a>
-          <a href="https://uclouvain.be/en/index.html/"><img src="/assets/img/logo_UCL.jpg" alt="UCLouvain" width="75"/></a>
-          This project has been funded by Innoviris Brussels research with the programme Prospective Research Brussels under grant agreement No. 2021-PRB-7
-      </p>
+        <footer>
 
-            <div>
-              <a href="https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region" title="ResearchGate">
-                <span class="fa-stack fa-lg">
-                        <i class="fa-brands fa-researchgate"></i>
-                    </span>
-              </a>
-
-              <a href="https://github.com/co-habitat" title="GitHub">
-                <span class="fa-stack fa-lg">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-              </a>
-
-              <a href="https://twitter.com/marl3n3B" title="Twitter">
-                <span class="fa-stack fa-lg">
-                        <i class="fa-brands fa-twitter"></i>
-                    </span>
-              </a>
-
-            </div>
-
-        <p>
-          <small>Theme inspired by <a
-                href="https://github.com/orderedlist">orderedlist</a>'s
-            <a href="https://github.com/orderedlist/minimal">Minimal</a>.
-        Licensed under <a
-                href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA
-        3.0</a>.
-        </small>
+          <p>
+            <a href="https://innoviris.brussels/"><img src="/assets/img/logo_innoviris.png" alt="Innoviris" width="75"/></a>
+            <a href="https://www.kuleuven.be/english/kuleuven/index.html/"><img src="/assets/img/logo_KUL.png" alt="KULeuven" width="75"/></a>
+            <a href="https://uclouvain.be/en/index.html/"><img src="/assets/img/logo_UCL.jpg" alt="UCLouvain" width="75"/></a>
+            This project has been funded by Innoviris Brussels research with the programme Prospective Research Brussels under grant agreement No. 2021-PRB-7
         </p>
+
+              <div>
+                <a href="https://www.researchgate.net/project/CO-HABITAT-Towards-animal-inclusive-design-strategies-in-the-Brussels-Capital-Region" title="ResearchGate">
+                  <span class="fa-stack fa-lg">
+                          <i class="fa-brands fa-researchgate"></i>
+                      </span>
+                </a>
+
+                <a href="https://github.com/co-habitat" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                          <i class="fa-brands fa-github"></i>
+                      </span>
+                </a>
+
+                <a href="https://twitter.com/marl3n3B" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                          <i class="fa-brands fa-twitter"></i>
+                      </span>
+                </a>
+
+              </div>
+
+
+
+          <p>
+            <small>Theme inspired by <a
+                  href="https://github.com/orderedlist">orderedlist</a>'s
+              <a href="https://github.com/orderedlist/minimal">Minimal</a>.
+          Licensed under <a
+                  href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA
+          3.0</a>.
+          </small>
+          </p>
+
+        </footer>
+
 
       </section>
 

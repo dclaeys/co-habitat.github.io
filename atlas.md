@@ -14,14 +14,17 @@ permalink: ./atlas
 
 # Land use in Brussels Capital Region (BCR)
 
-<div class="container">
+<div class="container" id="habitats">
   <div class="row">
-    <div class="col">
+    <div class="col-8">
       <img src="/assets/img/maps/BuildingTypes.png" alt="Birds map" width="800"/>
     </div>
-    <div class="col">
-      ...
+    <div class="col-4">
+      Within Brussels Capital Region, most blocks are building blocks. Yet the further away we are from the city center, the more vegetation is present within these conventional building blocks.
     </div>
+  </div>
+  <div class="row">
+    <img src="/assets/img/maps/VegetationCover.png" alt="Birds map" width="800"/>
   </div>
 
   <div class="row">
@@ -32,9 +35,20 @@ permalink: ./atlas
       <img src="/assets/img/maps/NaturalCOLOR.png" alt="Birds map" width="800"/>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col">
+      ...
+    </div>
+    <div class="col">
+      ...
+    </div>
+  </div>
 </div>
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+# Observed Species
+
+<ul class="nav nav-tabs" id="myTab" role="tablist" id="obsSpecies">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="birds-tab" data-bs-toggle="tab" data-bs-target="#birds" type="button" role="tab" aria-controls="home" aria-selected="true">Birds</button>
   </li>
