@@ -12,9 +12,9 @@ permalink: ./atlas
   style="border:none">
 </iframe>
 
-# Land use in Brussels Capital Region (BCR)<a id="habiats"></a>
+# Land use in Brussels Capital Region (BCR)
 
-<div class="container">
+<div class="container" id="habitats">
   <div class="row">
     <div class="col-8">
       <img src="/assets/img/maps/BuildingTypes.png" alt="Birds map" width="800"/>
@@ -46,7 +46,7 @@ permalink: ./atlas
   </div>
 </div>
 
-# Observed Species<a id="obsSpecies"></a>
+# Observed Species
 
 <ul class="nav nav-tabs" id="myTab" role="tablist" id="obsSpecies">
   <li class="nav-item" role="presentation">
