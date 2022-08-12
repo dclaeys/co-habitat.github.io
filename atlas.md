@@ -8,13 +8,13 @@ permalink: ./atlas
   src="/assets/mapW/01_trees.html"
   width="100%"
   height="600"
-  title="chart name"
+  title="Street trees and Remarkable trees in Brussels Capital Region"
   style="border:none">
 </iframe>
 
-# Land use in Brussels Capital Region (BCR)
+# Land use in Brussels Capital Region (BCR)<a id="habiats"></a>
 
-<div class="container" id="habitats">
+<div class="container">
   <div class="row">
     <div class="col-8">
       <img src="/assets/img/maps/BuildingTypes.png" alt="Birds map" width="800"/>
@@ -46,7 +46,7 @@ permalink: ./atlas
   </div>
 </div>
 
-# Observed Species
+# Observed Species<a id="obsSpecies"></a>
 
 <ul class="nav nav-tabs" id="myTab" role="tablist" id="obsSpecies">
   <li class="nav-item" role="presentation">
